@@ -1,0 +1,26 @@
+
+Slave receives :
+ 'A', 'a', 'B', 'b', 'L', 'R', '1' - '9',
+ 's' (status), 'H' or 'h' (help)
+ 'i' (input), 'S' (shut off all)
+
+Slave sends :
+ echos Cr, Lf, space
+ echos 'L', 'R', A', 'a', 'B', and 'b' - unless
+ '&' if 'L' or 'R' sent before 'A', 'B'
+ '*' if 'A', 'a', 'B', or 'b' don't change state
+
+ '/' and '\' are sent for '1' (single pulse),
+ '<' is sent when '2' - '9' are received,
+ '.' is sent regularly during pulsing,
+ '#' if the slave timed out
+ '>' is sent when a '0' is received,
+
+ '!' when a limit has been reached,
+ '_' when a move in the other direction begins
+
+ '-' after shutting off all
+ ',' in status return like "AL,b"
+
+ '@' if '0' - '9' sent before 'A', 'B'
+ '?' for any other characters received
