@@ -1,5 +1,7 @@
  /* remote antenna tuner, wireless motor test based on
-  * track pacer node, Lyle Hazel, Len Long, Howard Mintz */
+  * track pacer node
+  (c) 2020 Lyle Hazel, Len Long, Howard Mintz 
+  see LICENSE.txt */
 
 #define     MAX_MOTORS_SUPPORTED  2
 #define     NUM_SPEEDS_IN_TABLE   8
