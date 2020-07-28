@@ -1,5 +1,8 @@
  /* remote antenna tuner, wireless motor test based on
-  * track pacer node, Lyle Hazel, Len Long, Howard Mintz */
+  * track pacer node
+  (c) 2020 Lyle Hazel, Len Long, Howard Mintz 
+  see LICENSE.txt */
+
 #define     MOTOR_POWER_PIN    4
 #define     MOTOR_POWER_ON     LOW
 #define     MOTOR_POWER_OFF   HIGH
