@@ -1,4 +1,7 @@
-
+ /* remote antenna tuner, wireless motor test 
+  (c) 2020 Lyle Hazel, Len Long, Howard Mintz 
+  see LICENSE.txt */
+  
 Slave receives :
  'A', 'a', 'B', 'b', 'L', 'R', '1' - '9',
  's' (status), 'H' or 'h' (help)
